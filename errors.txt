@@ -1,0 +1,20 @@
+[2022-05-04 20:12:01] [Task ID: 1] Fatal error while checking outMessage: no such window: window was already closed
+  (Session info: chrome=101.0.4951.54)
+Stacktrace:
+0   chromedriver                        0x0000000102b3fc34 chromedriver + 4406324
+1   chromedriver                        0x0000000102ad9290 chromedriver + 3986064
+2   chromedriver                        0x000000010273a84c chromedriver + 190540
+3   chromedriver                        0x000000010272b7d4 chromedriver + 128980
+4   chromedriver                        0x0000000102725fa4 chromedriver + 106404
+5   chromedriver                        0x0000000102791efc chromedriver + 548604
+6   chromedriver                        0x000000010275e864 chromedriver + 338020
+7   chromedriver                        0x0000000102b05320 chromedriver + 4166432
+8   chromedriver                        0x0000000102b1a748 chromedriver + 4253512
+9   chromedriver                        0x0000000102b1ecbc chromedriver + 4271292
+10  chromedriver                        0x0000000102b1b004 chromedriver + 4255748
+11  chromedriver                        0x0000000102afb08c chromedriver + 4124812
+12  chromedriver                        0x0000000102b32bf8 chromedriver + 4353016
+13  chromedriver                        0x0000000102b32d5c chromedriver + 4353372
+14  chromedriver                        0x0000000102b46438 chromedriver + 4432952
+15  libsystem_pthread.dylib             0x000000019879b878 _pthread_start + 320
+16  libsystem_pthread.dylib             0x00000001987965e0 thread_start + 8
