@@ -41,7 +41,7 @@ class stockCrawler:
 
     def run_stock_crawler(self):
         error_file = open("errors.txt", "a+")
-        driver = self.get_chromedriver(use_proxy=True)
+        driver = self.get_chromedriver(use_proxy=False)
         self.selenium_request_product_link(driver, error_file)
         while not self.stock_status:
             driver.refresh()
@@ -293,8 +293,8 @@ class stockCrawler:
     def initialize_driver_options(self):
         PROXY_HOST = self.proxies[0][self.proxy_index]
         PROXY_PORT = self.proxies[1][self.proxy_index]
-        PROXY_USER = 'leaf'  # username
-        PROXY_PASS = 'Hze5HN7B'  # password
+        PROXY_USER = ''  # username
+        PROXY_PASS = ''  # password
 
         manifest_json = """
           {
